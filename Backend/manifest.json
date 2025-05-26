@@ -1,0 +1,40 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.0/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.0",
+    "version": "1.0",
+    "id": "d15c93f5-3201-4eb1-8c7c-df6746d7d84f",
+    "packageName": "https://www.nicesoftwaresolutions.ai/querymate/login",  
+    "developer": {
+      "name": "Nice",  
+      "websiteUrl": "https://www.nicesoftwaresolutions.ai/querymate/login",  
+      "privacyUrl": "https://www.nicesoftwaresolutions.ai/querymate/login",
+      "termsOfUseUrl": "https://www.nicesoftwaresolutions.ai/querymate/login"
+    },
+    "name": {
+      "short": "QueryMate",
+      "full": "QueryMate"  
+    },
+    "description": {
+      "short": "AI-powered SQL chatbot for effortless data queries and insights.",
+      "full": "QueryMate is an AI-powered tool that allows users to interact with data through natural language queries. It provides actionable insights and visualizations, making data analysis easier and more intuitive."
+    },
+    "icons": {
+      "outline": "bot.png",
+      "color": "bot.png"
+    },
+    "staticTabs": [
+      {
+        "entityId": "querymateTab",  
+        "name": "QueryMate",  
+        "contentUrl": "https://www.nicesoftwaresolutions.ai/querymate/login",  
+        "websiteUrl": "https://www.nicesoftwaresolutions.ai/querymate/login",  
+        "scopes": ["personal", "team"]  
+      }
+    ],
+    "bots": [],
+    "composeExtensions": [],
+    "permissions": [
+      "identity"
+    ],
+    "accentColor": "#FF6600"  
+}
